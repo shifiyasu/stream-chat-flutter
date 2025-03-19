@@ -266,7 +266,7 @@ class MessageWidgetContent extends StatelessWidget {
                     ),
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.end,
-                    mainAxisSize: MainAxisSize.min,
+                    mainAxisSize: MainAxisSize.max,
                     children: [
                       if (!reverse &&
                           showUserAvatar == DisplayWidget.show &&
